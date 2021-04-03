@@ -42,6 +42,9 @@ function Navbar() {
         <Typography component={Link} to="/" underline="none" className={classes.TitleText} variant="h5" align="center">UNNECESSARY FLAME</Typography>
         <List>
         <ListItem button component={Link} to="/" >
+              <ListItemText disableTypography primary={<Typography className={classes.textColor} variant="h6">HOME</Typography>} />
+            </ListItem>
+            <ListItem button component={Link} to="/Roster" >
               <ListItemText disableTypography primary={<Typography className={classes.textColor} variant="h6">ROSTER</Typography>} />
             </ListItem>
             {/* <ListItem button component={Link} to="/Roster" >
